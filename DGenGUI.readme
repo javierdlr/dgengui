@@ -1,0 +1,56 @@
+DGenGUI v1.1 (2024.03.11)
+*************************
+
+USAGE:
+-Workbench icon:
+PUBSCREEN=<public_screen_name>: open on pubscreen. To create a public
+screen use 'SYS:Prefs/Screens'.
+ROMS_DRAWER=<path>: path with Genesis/MD roms files.
+LAST_ROM_LAUNCHED=<value>: position in listbrowser of last launched ROM.
+DGEN_SDL=1|2: "version" of DGen to use/launch by default.
+FORCE_LOWRES=<value>: force \"lowres\" selected/active entry. (0: No)
+SHOW_HINTS: show hints/help when mouse cursor is over gadgets.
+NO_GUI_FADE: don't use fade in/out GUI effect.
+
+-Keyboard handling:
+ESC quits DgenGUI.
+-Keyboard handling in GENERAL tab:
+Cursor Up/Down, Page Up/Down and Home/End keys to select ROM.
+Enter/Return to launch selected ROM.
+Keypress (0-9/A-Z) should go to a ROM starting with such letter/key pressed.
+
+-Mouse usage:
+You can launch a ROM entry by double click on an entry or clicking in
+the cover/image (it's a button).
+
+
+TRANSLATORS:
+German catalog by Maijestro.
+Italian catalog by Samir 'Samo79' Hawamdeh.
+Polish catalog by Marek 'smarkusg' Glogowski.
+Spanish catalog by Javier de las Rivas.
+
+
+SPECIAL THANKS:
+Maijestro and McFly for such great images.
+Marek Glogowski for such great Genesis/MD port!!!
+
+
+TO-DO:
+-Fix bugs.
+-Ideas, suggestions...
+
+
+AUTHOR:
+Javier de las Rivas <jabierdlr@gmail.com>
+
+
+HISTORY:
+V1.1 (2024.03.11): first release
+
+V1.2 (2024.mm.dd):
+-Rom's path wasn't correctly set when launching game. [https://os4welt.de/viewtopic.php?p=49159#p49159]
+-Added NO_GUI_FADE tooltype (don't use fade in/out GUI effect).
+-Fixed save states/slots chooser wasn't cleared when selecting new rom drawer.
+-Reworked getting save states/slots code.
+-Fixed loading/saving LAST_ROM_LAUNCHED tooltype value.
